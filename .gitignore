@@ -1,0 +1,16 @@
+# Jetbrains IDE metadata
+.idea
+
+# Installation archive
+siddata*.zip
+SiddataPlugin*.zip
+
+# dumps folder containing dumps created by SiddataCronjob
+dumps
+
+# MAC OS stuff
+*/.DS_STORE
+.DS_STORE
+
+# .orig files from kdiff3
+*.orig

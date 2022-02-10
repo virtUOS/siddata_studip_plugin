@@ -1,0 +1,54 @@
+.siddata-goal > fieldset > .siddata-element-header {
+    background-color: #28497c;
+    padding: 5px 10px 5px 10px;
+}
+
+.siddata-goal > fieldset > .siddata-element-header .siddata-element-title {
+    color: #ffffff;
+    padding-left: 0;
+}
+
+.siddata-goal > fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 5px;
+    min-width: 0;
+}
+
+.siddata-goal > fieldset > .siddata-element-header img {
+    vertical-align: middle;
+}
+
+.siddata-goal .siddata-goal-carousel {
+    margin-right: 22px;
+}
+
+.siddata-goal .siddata-goal-carousel img {
+    display: inline;
+}
+
+.siddata-carousel-prev-button, .siddata-carousel-next-button {
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.siddata-carousel-prev-button {
+    background-image: url("../../../../../assets/images/icons/blue/arr_1left.svg");
+}
+
+.siddata-carousel-next-button {
+    right: -22px;
+    background-image: url("../../../../../assets/images/icons/blue/arr_1right.svg");
+}
+
+.siddata-carousel-prev-button.slick-disabled, .siddata-carousel-next-button.slick-disabled {
+    opacity: 0.5;
+    cursor: default;
+}

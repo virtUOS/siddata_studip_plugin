@@ -1,0 +1,115 @@
+.siddata-settings {
+    max-width: 800px
+}
+
+.siddata-settings footer {
+    text-align: center;
+}
+
+.siddata-settings table {
+    width: 100%;
+}
+
+.siddata-settings td {
+    width: 33%;
+    text-align: center;
+}
+
+.siddata-settings-labelcell {
+    text-align: left;
+}
+
+#siddata-gender {
+    display: inline;
+}
+
+
+/* The switch - the box around the slider */
+/* source: https://www.w3schools.com/howto/howto_css_switch.asp */
+.siddata-switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+}
+
+/* Hide default HTML checkbox */
+.siddata-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.siddata-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .2s;
+    transition: .2s;
+    border-radius: 17px;
+}
+
+.siddata-slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+    border-radius: 50%;
+}
+
+input:checked + .siddata-slider {
+    background-color: #28497c;
+}
+
+input:focus + .siddata-slider {
+    box-shadow: 0 0 6px #28497c;
+}
+
+input:checked + .siddata-slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+.siddata-table-li1 {
+    display:list-item;
+    list-style:disc inside;
+    padding:0 0 0 28px;
+    margin:0;
+}
+
+.siddata-table-li2 {
+    display:list-item;
+    list-style:circle inside;
+    padding:0 0 0 42px;
+    margin:0;
+}
+
+@media (max-width: 767px) {
+    .siddata-table-li1 {
+        padding:0 0 0 8px;
+    }
+
+    .siddata-table-li2 {
+        padding:0 0 0 22px;
+    }
+
+    .siddata-settings td {
+        width: 25%;
+    }
+
+    .siddata-settings th:first-child,
+    .siddata-settings td:first-child {
+        width: 50%;
+    }
+}

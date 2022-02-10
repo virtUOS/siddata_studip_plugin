@@ -1,0 +1,64 @@
+/* source: https://codepen.io/Buttonpresser/pen/qiuIx */
+
+.siddata-questionnaire .siddata-activity-question-likertanswers ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.siddata-questionnaire .siddata-activity-question-likertanswers ul:last-of-type {
+    border-bottom: 0;
+}
+.siddata-questionnaire .siddata-activity-question-likertanswers ul:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 7%;
+    display: block;
+    background-color: #efefef;
+    height: 4px;
+    width: 86%;
+}
+.siddata-questionnaire .siddata-activity-question-likertanswers ul li {
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+    vertical-align: top;
+}
+.siddata-questionnaire .siddata-activity-question-likertanswers ul li input[type=radio] {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -6px;
+}
+.siddata-questionnaire .siddata-activity-question-likertanswers ul li label {
+    width:100%;
+    margin: 0;
+}
+
+.siddata-questionnaire footer {
+    text-align: center;
+}
+
+.siddata-questionnaire legend {
+    width: 100%;
+}
+
+.siddata-questionnaire header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.siddata-questionnaire-item {
+    padding: 20px 0 20px;
+    border-bottom: thin solid #d0d7e3;
+}
+
+.siddata-questionnaire-nolikert-dummy {
+    padding-bottom: 1em;
+}

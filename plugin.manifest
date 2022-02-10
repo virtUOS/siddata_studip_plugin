@@ -1,0 +1,6 @@
+pluginname=Siddata-Plugin
+pluginclassname=SiddataPlugin
+origin=virtUOS
+version=3.1.4
+description=Security Updates
+studipMinVersion=4.2

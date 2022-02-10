@@ -1,0 +1,124 @@
+.siddata h1 {
+    font-size: x-large;
+    color: #666;
+    border-bottom: unset;
+}
+
+.siddata h2 {
+    font-size: large;
+    color: #666;
+    border-bottom: unset;
+}
+
+.siddata table {
+    width: 100%;
+}
+
+.siddata .boxed-grid li {
+    padding: 0 0 0 1.4em
+}
+
+.siddata {
+    max-width: 820px;
+}
+
+.siddata.siddata-full-width {
+    max-width: none;
+}
+
+.siddata h2.anchor {
+    padding-top: 50px;
+    margin-top: -30px;
+}
+
+.siddata-goal {
+    max-width: 100%;
+}
+
+.siddata-goal legend {
+    font-size: larger;
+    color: #28497c;
+}
+
+.siddata-goal-input {
+    width: 80%;
+    display: inline;
+}
+
+.siddata-goal-button {
+    width: 20%;
+}
+
+#siddata-goal-properties {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.siddata-edit-property-button {
+    cursor: pointer;
+}
+
+.siddata-dialog {
+    max-width: 400px;
+}
+
+.siddata-dialog footer {
+    text-align: center;
+    float: bottom;
+}
+
+.siddata-centering {
+    text-align: center;
+}
+
+.siddata-element-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.siddata-element-title {
+    text-align: left;
+    display: inline;
+    text-indent: 0;
+    padding: 5px 0 5px 22px;
+    line-height: 1.5;
+}
+
+.siddata-element-options {
+    text-align: right;
+    display: inline;
+    flex-shrink: 0;
+}
+
+.siddata-element-options a {
+    margin: 0px 7px;
+}
+
+.siddata-element-options img {
+    display: inline !important;
+}
+
+.siddata-view li {
+    background-repeat: no-repeat !important;
+    padding-left: 20px !important;
+}
+
+.siddata-view li.active {
+    background-position: 5px center !important;
+}
+
+@media (max-width: 767px) {
+    .boxed-grid li {
+        min-width: 20em;
+    }
+    .boxed-grid h3 {
+        font-size: 1.5em;
+    }
+    a.button {
+        padding: 5px 10px;
+    }
+    form.default footer {
+        padding: 5px 5px;
+    }
+}

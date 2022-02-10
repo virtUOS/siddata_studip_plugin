@@ -1,0 +1,41 @@
+.siddata-numberCircle {
+    border-radius: 50%;
+    min-width: 30px;
+    height: 30px;
+    padding: 3px;
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    background: #29487c;
+    color: #fff;
+    text-align: center;
+    font: 26px Arial, sans-serif;
+}
+div.siddata ul.boxed-grid p {
+    padding-right: 40px
+}
+div.siddata ul.boxed-grid h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+li.siddata-tile-color-yellow a {
+    background: #ffd785;;
+}
+
+li.siddata-tile-color-yellow a:hover {
+    background: #fff2d6;
+}
+
+li.siddata-tile-color-red a {
+    background: #e76666;
+    color: #000000;
+}
+
+li.siddata-tile-color-red p {
+    color: #3c454e;
+}
+
+li.siddata-tile-color-red a:hover {
+    background: #f7cccc;
+}
