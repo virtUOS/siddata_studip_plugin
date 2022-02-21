@@ -1,6 +1,6 @@
 # Siddata-Stud.IP-Plugin
 
-Date: Febuary 10, 2022
+Date: Febuary 21, 2022
 
 Authors: Niklas Dettmer <ndettmer@uos.de>, Dennis Benz <dbenz@uos.de>, Sebastian Osada <sebastian.osada@uni-osnabrueck.de>
 
